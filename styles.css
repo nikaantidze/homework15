@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Chivo', sans-serif;
+  font-size: 18px;
+  background-image: url("assets/Bitmap.svg");
+  background-blend-mode: overlay;
+  background-color: #121725;
+  background-repeat: no-repeat;
+  color: white;
+  overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: 62px;
+}
+
+.pud{
+    width: 333px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
+}
+
+.pud1{
+    color: #C2CBE5;
+text-align: center;
+font-family: Chivo;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+}
+
+.container {
+  width: 78.5vw;
+  margin: auto;
+  padding-bottom: 94px;
+  position: relative;
+}
+
+.header__container svg {
+  /* width: 134px; */
+  margin: 62px auto;
+  display: block;
+}
+
+main {
+  position: relative;
+  top: 25px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 1.65rem;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #54E6AF;
+}
+
+h1 span {
+  color: white;
+}
+
+p {
+  font-size: .933rem;
+  font-weight: 100;
+  line-height: 25px;
+  color: #C2CBE5;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.socials {
+  display: flex;
+  margin: 33px auto 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+img.spotify {
+  width: 17.2%;
+  cursor: pointer;
+}
+
+img.apple {
+  width: 14%;
+  cursor: pointer;
+}
+
+img.google {
+  width: 22.28%;
+  cursor: pointer;
+}
+
+img.pocket {
+  width: 23.5%;
+  cursor: pointer;
+}
+
+
+.qvemot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+input{
+    width: 320px;
+    height: 46px;
+    border-radius: 30px;
+    padding-left: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Chivo';
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    background-color: #2C344B;
+    border: none;
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+button{
+    width: 320px;
+    height: 46px;
+    border-radius: 28px;
+    background: #54E6AF;
+    box-shadow: 0px 2px 4px 0px rgba(84, 230, 175, 0.14);
+    margin: 0 auto;
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+button:hover{
+    background: #B3FFE2;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+}
+
+footer {
+  display: none;
+}
